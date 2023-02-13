@@ -1,51 +1,54 @@
-# Projeto Sistemas Operativos
+## Operating Systems Project
 ## _Racing Simulator_
 
 
 
-Projeto desenvolvido no âmbito da Disciplina de Sistemas Operativos.
-O	 sistema	 a	 desenvolver	 deve	 simular,	 de	 forma	 simplificada, uma	 corrida	 de	 carros,	
-semelhante	a	corridas	Fórmula	1.	Várias	equipas	irão	competir	pelo	primeiro	lugar	na	
-corrida.	
-- Cada	equipa	poderá	ter	um	ou	mais	carros	na	corrida,	mas	cada	uma	apenas	terá	
-um	lugar	na	box.	
- - O	 carro	 vencedor	é	o	 primeiro que	 conseguir terminar	 o	número	 de	
-voltas	da	corrida.	Os	carros	em	competição	necessitam	de	ir	às	boxes	para	abastecer	com	
-combustível	ou	quando	têm	uma	avaria.	
-- As	avarias	dos	carros	em	corrida	são	aleatórias	e	 caso	 ocorra	 uma	 avaria	 a	 um	 carro,	 ele	 entra	 em	 modo	 de	 segurança	 (velocidade	reduzida,	e	prioridade	na	box)	e	 tem	que	ir	à	box da	equipa	para	reparação.	
-- Os	carros	
-terão	de	gerir	o	seu	nível	de	combustível	de	modo	a	efetuar	o	abastecimento	na	box	assim	
-que	possível.	
-- Caso	o	nível	de	combustível	atinja	um	nível	mínimo,	o	carro	entra	em	modo
-de	segurança.
+Project developed in the scope of the Operating Systems discipline.
+The system to be developed should simulate, in a simplified way, a car race,	
+similar to Formula 1 races.	Several teams will compete for the first place in the	
+race.	
+- Each team can have one or more cars in the race, but each team will only have one	
+a place in the pit.	
+ - The winning car is the first car that manages to finish the number of	
+laps of the race.	Racing cars need to go into the pits to fill up with fuel or when	
+fuel or when they have a breakdown.	
+- Racing car breakdowns are random, and if a car breaks down, it goes into safety mode (reduced speed, and priority in the pit) and must go to the team's pit for repair.	
+- The cars	
+will have to manage their fuel level in order to refuel in the pit as soon as possible.	
+as soon as possible.	
+- If the fuel level reaches a minimum level, the car will go into
+mode.
 
 
-## Competências implementadas
+## Skills implemented
 
-1.    Funções de um Sistema Operativo
-2.    Sistemas de Ficheiros
-3.    Entrada/Saída e escalonamento de disco
-4.    Gestão de Processos
-5.    Escalonamento de processos
-6.    Gestão de memória
-       a.    Memória virtual
+1.    Functions of an Operating System
+2.    File Systems
+3.    Input/Output and disk scaling
+4.    Process Management
+5.    Process Scheduling
+6.    Memory management
+       a.    Virtual memory
        b.    Memory-Mapped Files
 7.    Multi-threading
-8.    Programação Concorrente
-       a.    Programação em C em Linux; Comandos Linux; Funções de Sistema Linux
-       b.    Programação Multi-processo e multi-threaded
-       c.    Comunicação entre processos
-              i.    Sinais; Pipes; Named Pipes; Select; Memória partilhada; Filas de Mensagens
-       d.    Sincronização
-              i.    Exclusão mútua (mutexes), Semáforos,Variáveis de condição
-              ii.    Deadlocks e Race Conditions
-9.    Segurança
-10.  Virtualização
+8.    Concurrent programming
+       a.    C Programming under Linux; Linux Commands; Linux System Functions
+       b.    Multi-process and multi-threaded programming
+       c.    Communication between processes
+              i.    Signals; Pipes; Named Pipes; Select; Shared memory; Message queues
+       d.    Synchronization
+              i.    Mutual exclusion (mutexes), Semaphores,Condition variables
+              ii.    Deadlocks and Race Conditions
+9.    Safety
+10.  Virtualization
 
 
-## Instalação
+## Installation
 
 ```sh
 makefile
 ./main
 ```
+
+
+Translated with www.DeepL.com/Translator (free version)
